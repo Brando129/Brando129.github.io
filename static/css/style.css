@@ -435,6 +435,7 @@ img {
 
     /* Set a specified height, or the minimum height for the background image */
     min-height: 300px;
+    width: 100%;
 
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
