@@ -257,7 +257,7 @@ section {
 }
 
 /* Bootcamp timeline fade in/out */
-.animate {
+/* .animate {
     animation: anim 7s infinite alternate;
     }
 
@@ -274,7 +274,7 @@ section {
         opacity: 1;
         z-index: 1
     }
-}
+} */
 
 /* About5 */
 .github-logo {
