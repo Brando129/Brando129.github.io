@@ -306,14 +306,6 @@ section {
     background-size: cover;
 }
 
-@media only screen and (max-device-width : 730px) {
-    .fixed {
-        position:fixed;
-        top:0;
-        left:0;
-    }
-}
-
 /* Game projects background */
 .fixed-game-bg {
     /* The background image */
