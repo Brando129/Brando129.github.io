@@ -291,7 +291,7 @@ section {
     background-image: url("/static/img/blueprints.png");
 
     /* Set a specified height, or the minimum height for the background image */
-    min-height: 300px;
+    min-height: 100px;
 
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
