@@ -295,7 +295,6 @@ section {
 
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
-    -webkit-backface-visibility: hidden;
 
     /* Center the background image */
     background-position: center;
@@ -305,6 +304,14 @@ section {
 
     /* Scale the background image to be as large as possible */
     background-size: cover;
+}
+
+@media only screen and (max-device-width : 730px) {
+    .fixed {
+        position:fixed;
+        top:0;
+        left:0;
+    }
 }
 
 /* Game projects background */
