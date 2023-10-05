@@ -144,7 +144,7 @@ a.nav-link {
 }
 
 /* Loading animation */
-section {
+/* section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,7 +208,7 @@ section {
         transform: translateX(0px) scale(0);
         opacity: 1;
     }
-}
+} */
 /* End of loading animation */
 
 /* Black highlight */
