@@ -34,9 +34,9 @@ function change() {
     }
 }
 
-// setInterval(change, 750);
+setInterval(change, 750);
 
-// // Slideshow
+// Slideshow
 // var slideIndex = 0;
 // carousel();
 
