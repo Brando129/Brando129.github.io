@@ -10,29 +10,29 @@ var typed = new Typed(".auto-type", {
 
 // About me
 // Change spanned text color
-var python = document.getElementById("python");
-var learn = document.getElementById("learn");
-var secure = document.getElementById("secure");
-var color = ["black", "white"];
-var i = 0;
-var currentElement = null;
+// var python = document.getElementById("python");
+// var learn = document.getElementById("learn");
+// var secure = document.getElementById("secure");
+// var color = ["black", "white"];
+// var i = 0;
+// var currentElement = null;
 
-function change() {
-    if (currentElement !== null) {
-        currentElement.style.color = "black";
-    }
+// function change() {
+//     if (currentElement !== null) {
+//         currentElement.style.color = "black";
+//     }
 
-    currentElement = (currentElement === null) ? secure :
-                        (currentElement === secure) ? learn :
-                        (currentElement === learn) ? python : secure;
+//     currentElement = (currentElement === null) ? secure :
+//                         (currentElement === secure) ? learn :
+//                         (currentElement === learn) ? python : secure;
 
-    currentElement.style.color = color[i];
-    i++;
+//     currentElement.style.color = color[i];
+//     i++;
 
-    if (i > color.length - 1) {
-        i = 0;
-    }
-}
+//     if (i > color.length - 1) {
+//         i = 0;
+//     }
+// }
 
 setInterval(change, 750);
 
