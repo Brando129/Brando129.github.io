@@ -291,7 +291,7 @@ section {
     background-image: url("/static/img/blueprints.png");
 
     /* Set a specified height, or the minimum height for the background image */
-    min-height: 100px;
+    min-height: 300px;
 
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
@@ -303,7 +303,7 @@ section {
     background-repeat: no-repeat;
 
     /* Scale the background image to be as large as possible */
-    background-size: cover;
+    background-size: auto;
 }
 
 /* Game projects background */
