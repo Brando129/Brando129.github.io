@@ -44,7 +44,7 @@ a.nav-link {
 /* Main banner background */
 .fixed-bg {
     /* The background image */
-    background-image: url("/img/banner.png");
+    background-image: url("/static/img/banner.png");
 
     /* Set a specified height, or the minimum height for the background image */
     min-height: 400px;
