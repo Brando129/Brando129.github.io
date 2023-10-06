@@ -294,7 +294,7 @@ section {
     min-height: 400px;
 
     /* Set background image to fixed (don't scroll along with the page) */
-    background-attachment: scroll;
+    position: fixed;
 
     /* Center the background image */
     background-position: center;
