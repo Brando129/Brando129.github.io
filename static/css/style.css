@@ -640,3 +640,28 @@ img {
         visibility: visible;
     }
 }
+
+.navbar-toggler {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.navbar-toggler:hover {
+    background-color: lightgray;
+}
+
+.navbar-nav {
+    padding: 10px;
+}
+
+.navbar-nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-nav a:hover {
+    background-color: lightgray;
+}
