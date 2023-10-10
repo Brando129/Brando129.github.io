@@ -373,6 +373,12 @@ section {
     background-size: cover;
 }
 
+@media (max-width: 767px) {
+    .fixed-game-bg {
+        background-attachment: initial;
+    }
+}
+
 /* Game card background */
 .game-card-bg {
     background-image: linear-gradient(to bottom right, tan, black);
@@ -495,6 +501,12 @@ img {
     background-size: cover;
 }
 
+@media (max-width: 767px) {
+    .fixed-skills-bg {
+        background-attachment: initial;
+    }
+}
+
 /* Skills header */
 .skills-header {
     font-size: 100px;
@@ -557,6 +569,12 @@ img {
     background-size: cover;
 }
 
+@media (max-width: 767px) {
+    .fixed-education-bg {
+        background-attachment: initial;
+    }
+}
+
 .education-icon {
     height: 70px;
 }
@@ -590,6 +608,12 @@ img {
     /* Scale the background image to be as large as possible */
     background-size: cover;
 }
+
+@media (max-width: 767px) {
+    .fixed-courses-bg {
+        background-attachment: initial;
+    }
+}
 /* End of courses */
 
 
@@ -614,6 +638,12 @@ img {
     /* Scale the background image to be as large as possible */
     background-size: cover;
 }
+
+@media (max-width: 767px) {
+    .fixed-experience-bg {
+        background-attachment: initial;
+    }
+}
 /* End of experience */
 
 
@@ -637,6 +667,12 @@ img {
 
     /* Scale the background image to be as large as possible */
     background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .fixed-contact-bg {
+        background-attachment: initial;
+    }
 }
 
 /* Icon sizes */
