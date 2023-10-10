@@ -10,16 +10,19 @@
     background-image: linear-gradient(to bottom right, antiquewhite, silver);
 }
 
+/* Toggler icon */
 .navbar-toggler {
     border: none;
     outline: none;
     background-color: transparent;
 }
 
+/* Bar colors */
 .navbar-toggler-icon {
     color: #000;
 }
 
+/* Hamburger bars */
 .navbar-nav {
     display: flex;
     flex-direction: column;
@@ -346,6 +349,8 @@ section {
 @media (max-width: 767px) {
     .fixed-projects-bg {
         background-attachment: initial;
+        background-position: center center;
+        background-size: contain;
     }
 }
 
