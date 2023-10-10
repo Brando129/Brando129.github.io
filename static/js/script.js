@@ -12,7 +12,7 @@ function showLinks() {
 // Main banner
 // Career title animation
 var typed = new Typed(".auto-type", {
-    strings: ["Software Engineer", "Web/App Developer"],
+    strings: ["Software Engineer", "Web/Game Developer"],
     typeSpeed: 100,
     backSpeed:150,
     loop: true
@@ -60,7 +60,7 @@ for (i = 0; i < x.length; i++) {
 slideIndex++;
 if (slideIndex > x.length) {slideIndex = 1}
 x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 3000); // Change image every 2.5 seconds
+  setTimeout(carousel, 3000); // Change image every 3 seconds
 }
 
 // Hover event
