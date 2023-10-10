@@ -355,7 +355,7 @@ section {
 /* Game projects background */
 .fixed-game-bg {
     /* The background image */
-    background-image: url("/static/img/platformer.gif");
+    background-image: url("/static/img/gaming.png");
 
     /* Set a specified height, or the minimum height for the background image */
     min-height: 400px;
