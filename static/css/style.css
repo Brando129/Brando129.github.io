@@ -463,6 +463,13 @@ img {
     color: blue;
 }
 
+/* Code link2 */
+.code_link2 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: goldenrod;
+}
+
 /* Video Link */
 #link {
     font-size: 20px;
