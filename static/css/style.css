@@ -343,6 +343,12 @@ section {
     background-size: cover;
 }
 
+@media (max-width: 767px) {
+    .fixed-projects-bg {
+        background-attachment: initial;
+    }
+}
+
 /* Game projects background */
 .fixed-game-bg {
     /* The background image */

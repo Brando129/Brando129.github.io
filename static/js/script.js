@@ -1,3 +1,14 @@
+// Navbar
+// Show hamburger links on click
+function showLinks() {
+    var navbarNav = document.getElementById("navbarNav");
+    if (navbarNav.classList.contains("collapse")) {
+        navbarNav.classList.remove("collapse");
+    } else {
+        navbarNav.classList.add("collapse");
+    }
+}
+
 // Main banner
 // Career title animation
 var typed = new Typed(".auto-type", {
@@ -57,12 +68,3 @@ function scale(element, value) {
     element.style.transform = "scale(" + value + ")";
 }
 // End of about me
-
-function showLinks() {
-    var navbarNav = document.getElementById("navbarNav");
-    if (navbarNav.classList.contains("collapse")) {
-        navbarNav.classList.remove("collapse");
-    } else {
-        navbarNav.classList.add("collapse");
-    }
-}
