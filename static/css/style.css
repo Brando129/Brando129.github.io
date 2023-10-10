@@ -10,39 +10,30 @@
     background-image: linear-gradient(to bottom right, antiquewhite, silver);
 }
 
-/* Hamburger menu icon */
 .navbar-toggler {
-    display: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
 }
 
-/* Navbar on mobile screens */
-@media screen and (max-width: 768px) {
-    .navbar-toggler {
-        display: block;
-    }
+.navbar-toggler-icon {
+    color: #000;
+}
 
-    .navbar-collapse {
-        display: none;
-    }
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
-    .navbar-nav {
-        display: block;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #fff;
-        z-index: 1;
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.5s ease-in-out;
-    }
+.navbar-nav .nav-item {
+    padding: 10px 0;
+}
 
-    .navbar-toggler:hover + .navbar-nav,
-    .navbar-toggler.active + .navbar-nav {
-        opacity: 1;
-        visibility: visible;
-    }
+.navbar-nav .nav-link {
+    color: #000;
+    font-size: 16px;
 }
 
 /* Home icons */
