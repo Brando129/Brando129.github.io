@@ -6,6 +6,60 @@
 
 /* Navbar */
 /* Navbar background */
+@media screen and (max-width: 768px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-collapse {
+            display: none;
+    }
+
+    .navbar-nav {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .navbar-toggler:hover + .navbar-nav,
+    .navbar-toggler.active + .navbar-nav {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.navbar-toggler {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.navbar-toggler:hover {
+    background-color: lightgray;
+}
+
+.navbar-nav {
+    padding: 10px;
+}
+
+.navbar-nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-nav a:hover {
+    background-color: lightgray;
+}
+
 .nav {
     background-image: linear-gradient(to bottom right, antiquewhite, silver);
 }
@@ -611,57 +665,3 @@ img {
 }
 
 /* End of contact */
-
-@media screen and (max-width: 768px) {
-    .navbar-toggler {
-        display: block;
-    }
-
-    .navbar-collapse {
-            display: none;
-    }
-
-    .navbar-nav {
-        display: block;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #fff;
-        z-index: 1;
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.5s ease-in-out;
-    }
-
-    .navbar-toggler:hover + .navbar-nav,
-    .navbar-toggler.active + .navbar-nav {
-        opacity: 1;
-        visibility: visible;
-    }
-}
-
-.navbar-toggler {
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 4px;
-}
-
-.navbar-toggler:hover {
-    background-color: lightgray;
-}
-
-.navbar-nav {
-    padding: 10px;
-}
-
-.navbar-nav a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-}
-
-.navbar-nav a:hover {
-    background-color: lightgray;
-}
