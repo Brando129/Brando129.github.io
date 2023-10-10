@@ -6,13 +6,23 @@
 
 /* Navbar */
 /* Navbar background */
+.nav {
+    background-image: linear-gradient(to bottom right, antiquewhite, silver);
+}
+
+/* Hamburger menu icon */
+.navbar-toggler {
+    display: none;
+}
+
+/* Navbar on mobile screens */
 @media screen and (max-width: 768px) {
     .navbar-toggler {
         display: block;
     }
 
     .navbar-collapse {
-            display: none;
+        display: none;
     }
 
     .navbar-nav {
@@ -33,35 +43,6 @@
         opacity: 1;
         visibility: visible;
     }
-}
-
-.navbar-toggler {
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 4px;
-}
-
-.navbar-toggler:hover {
-    background-color: lightgray;
-}
-
-.navbar-nav {
-    padding: 10px;
-}
-
-.navbar-nav a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-}
-
-.navbar-nav a:hover {
-    background-color: lightgray;
-}
-
-.nav {
-    background-image: linear-gradient(to bottom right, antiquewhite, silver);
 }
 
 /* Home icons */
