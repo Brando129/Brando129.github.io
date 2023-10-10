@@ -10,14 +10,14 @@
     background-image: linear-gradient(to bottom right, antiquewhite, silver);
 }
 
-/* Toggler icon */
+/* Toggler */
 .navbar-toggler {
     border: none;
     outline: none;
     background-color: transparent;
 }
 
-/* Bar colors */
+/* Navbar toggler icon */
 .navbar-toggler-icon {
     color: #000;
 }
@@ -344,17 +344,13 @@ section {
 
     /* Scale the background image to be as large as possible */
     background-size: cover;
-
-    @media (max-width: 767px) {
-        .fixed-projects-bg {
-            background-attachment: initial;
-            background-position: center center;
-            background-size: contain;
-        }
-    }
-    
 }
 
+@media (max-width: 767px) {
+    .fixed-projects-bg {
+        background-attachment: initial;
+    }
+}
 
 /* Game projects background */
 .fixed-game-bg {
