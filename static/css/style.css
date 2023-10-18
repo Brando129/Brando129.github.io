@@ -521,6 +521,13 @@ img {
     color: white;
 }
 
+/* Skills header 2 */
+.skills-header2 {
+    font-size: 90px;
+    font-family: 'Caveat';
+    color: white;
+}
+
 /* Skills text */
 .skills {
     font-family: 'Caveat';
